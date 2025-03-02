@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.yellow,
         ),
         body: Padding(
           padding: const EdgeInsets.all(10.0),
@@ -25,101 +25,121 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.green,
-                    ),
-                   height: 150,
-                    width: 175, 
+                    color: Colors.green,
+                    height: 200,
+                    width: 180,
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.green,
-                    ),
-                    height: 150,
-                    width: 175,
-                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                        color: Colors.green,
+                        height: 100,
+                        width: 180,
+                      ),
+                        SizedBox(
+                          height: 10,
+                        ),
+                      Container(
+                        color: Colors.yellow,
+                        height: 100,
+                        width: 180,
+                      ),
+                    ],
+                  )
                 ],
               ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                        color: Colors.pink,
+                        height: 100,
+                        width: 373,
+                      ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                        color: Colors.green,
+                        height: 100,
+                        width: 373,
+                      ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                        color: Colors.yellow,
+                        height: 150,
+                        width: 180,
+                      ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Container(
+                            color: Colors.deepPurple,
+                            height: 40,
+                            width: 180,
+                          ),
 
-              Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      color: Colors.green,
-                    ),
-                    height: 150,
-                    width: double.infinity,
+                          SizedBox(
+                          height: 15,
+                        ),
+
+                          Container(
+                            color: Colors.deepOrange,
+                            height: 40,
+                            width: 180,
+                          ),
+
+                          SizedBox(
+                          height: 15,
+                        ),
+                          Container(
+                            color: Colors.deepPurple,
+                            height: 40,
+                            width: 180,
+                          ),
+                        ],  
+                      )
+                ],
               ),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                            decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(20),
-                            color: Colors.yellow,
-                            ),
-                            height: 200,
-                            width: 175,
+                  Container(
+                        color: Colors.pink,
+                        height: 100,
+                        width: 80,
                       ),
-                      SizedBox(
-                        height: 20,
+
+                  Container(
+                        color: Colors.yellow,
+                        height: 100,
+                        width: 80,
                       ),
-                      Container(
-                            decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(20),
-                            color: Colors.yellow,
-                            ),
-                            height: 100,
-                            width: 175,
+
+                  Container(
+                        color: Colors.green,
+                        height: 100,
+                        width: 80,
                       ),
-                    ],
-                  ),
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              color: Colors.blue,
-                            ),
-                            height: 100,
-                            width: 175,
+
+                  Container(
+                        color: Colors.deepPurple,
+                        height: 100,
+                        width: 80,
                       ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              color: Colors.blue,
-                            ),
-                            height: 100,
-                            width: 175,
-                      ),
-                      SizedBox(
-                        height: 20,
-                      ),
-                      Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(20),
-                              color: Colors.blue,
-                            ),
-                            height: 100,
-                            width: 175,
-                      ),
-                      
-                    ],
-                  ),
                 ],
-              )
+              ),
             ],
           ),
-        ),
+        )
       ),
     );
   }
