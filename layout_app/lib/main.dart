@@ -16,19 +16,39 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.blue,
         ),
-        body: Column(
-          children: [
-            Container(
-              height: 350,
-              width: double.infinity,
-              color: Colors.green,
-            ),
-            Container(
-              height: 350,
-              width: double.infinity,
-              color: Colors.red,
-            )
-          ],
+        body: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Container(
+                height: 150,
+                width: double.infinity,
+                color: Colors.green,
+              ),
+              Container(
+                height: 150,
+                width: double.infinity,
+                color: Colors.green,
+              ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    width: 175,
+                    height: 400,
+                    color: Colors.yellow,
+                  ),
+                  Container(
+                    width: 175,
+                    height: 400,
+                    color: Colors.yellow,
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
