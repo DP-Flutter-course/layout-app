@@ -25,12 +25,18 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    color: Colors.green,
-                    height: 150,
-                    width: 175,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.green,
+                    ),
+                   height: 150,
+                    width: 175, 
                   ),
                   Container(
-                    color: Colors.green,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.green,
+                    ),
                     height: 150,
                     width: 175,
                   ),
@@ -38,7 +44,10 @@ class MyApp extends StatelessWidget {
               ),
 
               Container(
-                    color: Colors.green,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      color: Colors.green,
+                    ),
                     height: 150,
                     width: double.infinity,
               ),
@@ -50,7 +59,10 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
+                            decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(20),
                             color: Colors.yellow,
+                            ),
                             height: 200,
                             width: 175,
                       ),
@@ -58,7 +70,10 @@ class MyApp extends StatelessWidget {
                         height: 20,
                       ),
                       Container(
+                            decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(20),
                             color: Colors.yellow,
+                            ),
                             height: 100,
                             width: 175,
                       ),
@@ -68,7 +83,10 @@ class MyApp extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
-                            color: Colors.blue,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(20),
+                              color: Colors.blue,
+                            ),
                             height: 100,
                             width: 175,
                       ),
@@ -76,7 +94,10 @@ class MyApp extends StatelessWidget {
                         height: 20,
                       ),
                       Container(
-                            color: Colors.blue,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(20),
+                              color: Colors.blue,
+                            ),
                             height: 100,
                             width: 175,
                       ),
@@ -84,7 +105,10 @@ class MyApp extends StatelessWidget {
                         height: 20,
                       ),
                       Container(
-                            color: Colors.blue,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(20),
+                              color: Colors.blue,
+                            ),
                             height: 100,
                             width: 175,
                       ),
