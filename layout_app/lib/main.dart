@@ -21,30 +21,76 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Container(
-                height: 150,
-                width: double.infinity,
-                color: Colors.green,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Container(
+                    color: Colors.green,
+                    height: 150,
+                    width: 175,
+                  ),
+                  Container(
+                    color: Colors.green,
+                    height: 150,
+                    width: 175,
+                  ),
+                ],
               ),
+
               Container(
-                height: 150,
-                width: double.infinity,
-                color: Colors.green,
+                    color: Colors.green,
+                    height: 150,
+                    width: double.infinity,
               ),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Container(
-                    width: 175,
-                    height: 400,
-                    color: Colors.yellow,
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                            color: Colors.yellow,
+                            height: 200,
+                            width: 175,
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Container(
+                            color: Colors.yellow,
+                            height: 100,
+                            width: 175,
+                      ),
+                    ],
                   ),
-                  Container(
-                    width: 175,
-                    height: 400,
-                    color: Colors.yellow,
-                  )
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Container(
+                            color: Colors.blue,
+                            height: 100,
+                            width: 175,
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Container(
+                            color: Colors.blue,
+                            height: 100,
+                            width: 175,
+                      ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Container(
+                            color: Colors.blue,
+                            height: 100,
+                            width: 175,
+                      ),
+                      
+                    ],
+                  ),
                 ],
               )
             ],
