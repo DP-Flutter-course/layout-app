@@ -16,6 +16,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.blue,
         ),
+        body: Column(
+          children: [
+            Container(
+              height: 350,
+              width: double.infinity,
+              color: Colors.green,
+            ),
+          ],
+        ),
       ),
     );
   }
